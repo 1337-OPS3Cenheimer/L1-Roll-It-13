@@ -23,7 +23,7 @@ while comp_score < game_goal and user_score < game_goal:
 
 # End of entire game, output final results
 print()
-if user_score > comp_score
+if user_score > comp_score:
     print("The user won")    # Replace with call to statement generator
 else:
     print("The computer won")
